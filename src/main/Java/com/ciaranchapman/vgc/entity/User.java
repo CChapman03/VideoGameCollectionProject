@@ -17,7 +17,7 @@ public class User
 {
     // Instance Variables
 
-    private Logger logger = LogManager.getLogger(this.getClass());
+    //private Logger logger = LogManager.getLogger(this.getClass());
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
@@ -33,11 +33,20 @@ public class User
     @Column(name = "password")
     private String password;
 
-    @Column(name = "collection_id")
-    private Collection collection;
-
     @Column(name = "avatar")
     private String avatar;
+
+    @OneToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "collection_id", nullable = false)
+    private Collection collection;
+
+    @OneToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "wishlist_id", nullable = false)
+    private Collection wishlist;
+
+    @ManyToOne
+    @JoinColumn(name = "id", nullable = false)
+    UserRoles userRoles;
 
     public User()
     {
@@ -99,5 +108,13 @@ public class User
 
     public void setAvatar(String avatar) {
         this.avatar = avatar;
+    }
+
+    public UserRoles getUserRoles() {
+        return userRoles;
+    }
+
+    public void setUserRoles(UserRoles userRoles) {
+        this.userRoles = userRoles;
     }
 }

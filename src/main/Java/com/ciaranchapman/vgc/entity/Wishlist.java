@@ -1,43 +1,26 @@
 package com.ciaranchapman.vgc.entity;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.ejb.Local;
 import javax.persistence.*;
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
-import java.util.Date;
 import java.util.Set;
 
-@Entity(name = "Collection")
-@Table(name = "Collection")
-public class Collection
+@Entity(name = "Wishlist")
+@Table(name = "Wishlist")
+public class Wishlist
 {
-    // Instance Variables
-
-    //private Logger logger = LogManager.getLogger(this.getClass());
-
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @OneToMany(mappedBy="collection")
+    @OneToMany(mappedBy="wishlist")
     @Column(name = "game_id", nullable = false)
     private Set<Game> games;
 
-    // Constructor(s)
-
-    public Collection()
+    public Wishlist()
     {
 
-    }
-
-    public Collection(Set<Game> games)
-    {
-        this.games = games;
     }
 
     public int getId() {

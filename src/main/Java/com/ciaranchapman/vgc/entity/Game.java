@@ -9,6 +9,7 @@ import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
+import java.util.Set;
 
 @Entity(name = "Game")
 @Table(name = "Game")
@@ -55,6 +56,14 @@ public class Game
 
     @Column(name = "artwork")
     private String artwork;
+
+    @ManyToOne
+    @JoinColumn(name="id", nullable=false)
+    private Collection collection;
+
+    @ManyToOne
+    @JoinColumn(name="id", nullable=false)
+    private Wishlist wishlist;
 
     // Constructor
 
@@ -165,6 +174,22 @@ public class Game
 
     public void setArtwork(String artwork) {
         this.artwork = artwork;
+    }
+
+    public Collection getCollection() {
+        return collection;
+    }
+
+    public void setCollection(Collection collection) {
+        this.collection = collection;
+    }
+
+    public Wishlist getWishlist() {
+        return wishlist;
+    }
+
+    public void setWishlist(Wishlist wishlist) {
+        this.wishlist = wishlist;
     }
 
     public String toString()

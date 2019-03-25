@@ -20,6 +20,10 @@
         <mapping class="com.ciaranchapman.vgc.entity.Platform" />
         <mapping class="com.ciaranchapman.vgc.entity.Developer" />
         <mapping class="com.ciaranchapman.vgc.entity.Publisher" />
+        <mapping class="com.ciaranchapman.vgc.entity.Collection" />
+        <mapping class="com.ciaranchapman.vgc.entity.Wishlist" />
+        <mapping class="com.ciaranchapman.vgc.entity.User" />
+        <mapping class="com.ciaranchapman.vgc.entity.UserRoles" />
 
     </session-factory>
 
