@@ -44,10 +44,6 @@ public class User
     @JoinColumn(name = "wishlist_id", nullable = false)
     private Collection wishlist;
 
-    @ManyToOne
-    @JoinColumn(name = "id", nullable = false)
-    UserRoles userRoles;
-
     public User()
     {
 
@@ -108,13 +104,5 @@ public class User
 
     public void setAvatar(String avatar) {
         this.avatar = avatar;
-    }
-
-    public UserRoles getUserRoles() {
-        return userRoles;
-    }
-
-    public void setUserRoles(UserRoles userRoles) {
-        this.userRoles = userRoles;
     }
 }

@@ -14,9 +14,9 @@ public class UserRoles
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @OneToMany(mappedBy = "userRoles")
-    @Column(name = "user_id", nullable = false)
-    private Set<User> users;
+    @OneToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
 
     @Column(name = "role")
     private String role;
@@ -34,12 +34,13 @@ public class UserRoles
         this.id = id;
     }
 
-    public Set<User> getUsers() {
-        return users;
+
+    public User getUser() {
+        return user;
     }
 
-    public void setUsers(Set<User> users) {
-        this.users = users;
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public String getRole() {
