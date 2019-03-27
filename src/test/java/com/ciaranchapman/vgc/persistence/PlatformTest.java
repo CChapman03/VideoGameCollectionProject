@@ -1,6 +1,7 @@
 package com.ciaranchapman.vgc.persistence;
 
 import com.ciaranchapman.vgc.entity.Platform;
+import com.ciaranchapman.vgc.test.util.DatabaseUtility;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,11 +13,16 @@ public class PlatformTest
 {
     private GenericDao dao;
     private List<Platform> platforms;
+    private DatabaseUtility databaseUtility;
+
 
     @Before
     public void setup() throws Exception
     {
         this.dao = new GenericDao(Platform.class);
+        databaseUtility = new DatabaseUtility();
+        databaseUtility.runSQL("cleandb.sql");
+        databaseUtility.runSQL("createTestData.sql");
         this.platforms = dao.getAll();
     }
 

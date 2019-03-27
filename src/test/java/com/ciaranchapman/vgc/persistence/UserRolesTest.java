@@ -2,6 +2,7 @@ package com.ciaranchapman.vgc.persistence;
 
 import com.ciaranchapman.vgc.entity.User;
 import com.ciaranchapman.vgc.entity.UserRoles;
+import com.ciaranchapman.vgc.test.util.DatabaseUtility;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,11 +14,15 @@ public class UserRolesTest
 {
     private GenericDao dao;
     private List<UserRoles> userRoles;
+    private DatabaseUtility databaseUtility;
 
     @Before
     public void setup() throws Exception
     {
         this.dao = new GenericDao(UserRoles.class);
+        databaseUtility = new DatabaseUtility();
+        databaseUtility.runSQL("cleandb.sql");
+        databaseUtility.runSQL("createTestData.sql");
         this.userRoles = dao.getAll();
     }
 

@@ -14,6 +14,10 @@ public class Wishlist
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
+    @OneToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "wishlist_id", nullable = false)
+    private Wishlist wishlist;
+
     @OneToMany(mappedBy="wishlist")
     @Column(name = "game_id", nullable = false)
     private Set<Game> games;

@@ -2,6 +2,7 @@ package com.ciaranchapman.vgc.persistence;
 
 import com.ciaranchapman.vgc.entity.Game;
 import com.ciaranchapman.vgc.entity.Wishlist;
+import com.ciaranchapman.vgc.test.util.DatabaseUtility;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,11 +15,15 @@ public class WishlistTest
 {
     private GenericDao dao;
     private Wishlist wishlist;
+    private DatabaseUtility databaseUtility;
 
     @Before
     public void setup() throws Exception
     {
         this.dao = new GenericDao(Collection.class);
+        databaseUtility = new DatabaseUtility();
+        databaseUtility.runSQL("cleandb.sql");
+        databaseUtility.runSQL("createTestData.sql");
         this.wishlist = (Wishlist) dao.getById(0);
     }
 

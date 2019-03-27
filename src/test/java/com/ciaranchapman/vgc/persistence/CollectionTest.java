@@ -2,6 +2,7 @@ package com.ciaranchapman.vgc.persistence;
 
 import com.ciaranchapman.vgc.entity.Collection;
 import com.ciaranchapman.vgc.entity.Game;
+import com.ciaranchapman.vgc.test.util.DatabaseUtility;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,11 +14,15 @@ public class CollectionTest
 {
     private GenericDao dao;
     private Collection collection;
+    private DatabaseUtility databaseUtility;
 
     @Before
     public void setup() throws Exception
     {
         this.dao = new GenericDao(Collection.class);
+        databaseUtility = new DatabaseUtility();
+        databaseUtility.runSQL("cleandb.sql");
+        databaseUtility.runSQL("createTestData.sql");
         this.collection = (Collection) dao.getById(0);
     }
 

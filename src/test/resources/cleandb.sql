@@ -1,0 +1,10 @@
+set foreign_key_checks = 0;
+delete from User;
+delete from UserRoles;
+delete from Game;
+delete from Platform;
+delete from Developer;
+delete from Publisher;
+delete from Collection;
+delete from Wishlist;
+set foreign_key_checks = 1;

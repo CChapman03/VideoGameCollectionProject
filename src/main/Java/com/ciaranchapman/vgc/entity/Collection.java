@@ -24,6 +24,10 @@ public class Collection
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
+    @OneToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "collection_id", nullable = false)
+    private Collection collection;
+
     @OneToMany(mappedBy="collection")
     @Column(name = "game_id", nullable = false)
     private Set<Game> games;

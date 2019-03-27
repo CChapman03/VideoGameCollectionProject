@@ -4,6 +4,7 @@ import com.ciaranchapman.vgc.entity.Developer;
 import com.ciaranchapman.vgc.entity.Game;
 import com.ciaranchapman.vgc.entity.Platform;
 import com.ciaranchapman.vgc.entity.Publisher;
+import com.ciaranchapman.vgc.test.util.DatabaseUtility;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,11 +16,15 @@ public class GameTest
 {
     private GenericDao dao;
     private List<Game> games;
+    private DatabaseUtility databaseUtility;
 
     @Before
     public void setup() throws Exception
     {
         this.dao = new GenericDao(Game.class);
+        databaseUtility = new DatabaseUtility();
+        databaseUtility.runSQL("cleandb.sql");
+        databaseUtility.runSQL("createTestData.sql");
         games = dao.getAll();
     }
 
