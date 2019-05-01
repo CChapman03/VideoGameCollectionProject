@@ -13,20 +13,20 @@
     </form-login-config>
   </login-config>
 
-  <!-- Protect everything within the "investing" directory. -->
+  <!-- Protect everything within the "collection" directory. -->
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>collection</web-resource-name>
-      <url-pattern>/collection/*</url-pattern>
+      <url-pattern>/images/*</url-pattern>
     </web-resource-collection>
     <auth-constraint>
-      <role-name>registered-user</role-name>
+      <role-name>user</role-name>
       <role-name>administrator</role-name>
     </auth-constraint>
   </security-constraint>
 
   <security-role>
-    <role-name>registered-user</role-name>
+    <role-name>user</role-name>
   </security-role>
 
   <security-role>

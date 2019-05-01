@@ -1,7 +1,7 @@
-<Context docBase="authDemo" path="/authDemo" reloadable="true">
+<Context docBase="videoGameCollectionProject" path="/" reloadable="true">
     <Realm className="org.apache.catalina.realm.JDBCRealm"
            driverName="com.mysql.jdbc.Driver"
-           connectionURL="jdbc:mysql://localhost:3306/VideoGameCollection?user=tomcat&amp;password=tomcat"
+           connectionURL="jdbc:mysql://localhost:3306/VideoGameCollection?user=root&amp;password=student1203"
            userTable="User" userNameCol="username" userCredCol="password"
            userRoleTable="UserRoles" roleNameCol="role" >
     </Realm>

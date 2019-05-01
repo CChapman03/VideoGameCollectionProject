@@ -50,6 +50,7 @@ public class GenericDao<T> {
         Root<T> root = query.from(type);
         List<T> list = session.createQuery(query).getResultList();
         session.close();
+        //System.out.println(list.get(0));
         return list;
 
     }

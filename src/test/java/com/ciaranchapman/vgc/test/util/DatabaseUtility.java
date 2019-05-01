@@ -15,14 +15,14 @@ import java.sql.Statement;
 public class DatabaseUtility {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-    
+
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
 
-    static final String DB_URL = "jdbc:mysql://localhost/VGCTest";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/VGCTest";
 
     static final String USER = "root";
 
-    static final String PASS = "student";
+    static final String PASS = "student1203";
 
 
     /**

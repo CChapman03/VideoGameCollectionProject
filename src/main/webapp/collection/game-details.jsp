@@ -1,14 +1,15 @@
-<%--
+<%@ page import="com.ciaranchapman.vgc.entity.Game" %><%--
   Created by IntelliJ IDEA.
   User: student
-  Date: 3/25/19
-  Time: 12:06 PM
+  Date: 4/1/19
+  Time: 11:32 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>Login</title>
+    <title>Game Details</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -85,11 +86,21 @@
             }
         }
 
-        form {
+        div#div_main_content {
             background-color: indianred;
+            margin: auto;
+            text-align: center;
             margin: 3em 3em;
             padding: 3em 3em;
             box-shadow: grey 3px 4px 5px;
+        }
+
+        div#div_main_content table {
+            background-color: indianred;
+            margin: auto;
+            #text-align: center;
+            margin: 5em;
+            padding: 5em;
         }
 
         h1 {
@@ -123,6 +134,10 @@
             float: bottom;
         }
 
+        body {
+            overflow: auto;
+        }
+
     </style>
 </head>
 <body>
@@ -137,42 +152,62 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.jsp"><img src="images/Logo.png" alt="Video Game Collection's Logo" width="96px" height="48px" /></a>
+                    <a class="navbar-brand" href="../index.jsp"><img src="../images/Logo.png" alt="Video Game Collection's Logo" width="96px" height="48px" /></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.jsp">VGC - Video Game Collection</a></li>
+                        <li class="active"><a href="../index.jsp">VGC - Video Game Collection</a></li>
                     </ul>
                     <div class="pull-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="login.jsp">Login</a></li>
-                            <li><a href="signup.jsp">Signup</a></li>
+                            <li><a href="logout.jsp">Logout</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
 
-        <div class="container">
+        <div id="div_main_content" class="container">
+            <img id="gameImg" src="../images/${game.getArtwork()}" alt="Game Boxart" />
+            <div class="container">
+                <table>
+                    <tr>
+                        <td>Title: </td>
+                        <td>${game.getName()}</td>
+                    </tr>
+                    <tr>
+                        <td>Platform: </td>
+                        <td>${game.getPlatform.getName()}</td>
+                    </tr>
+                    <tr>
+                        <td>Developer: </td>
+                        <td>${game.getDeveloper.getName()}</td>
+                    </tr>
+                    <tr>
+                        <td>Publisher: </td>
+                        <td>${game.getPublisher.getName()}</td>
+                    </tr>
+                    <tr>
+                        <td>Release Date: </td>
+                        <td>${game.getReleaseDate()}</td>
+                    </tr>
+                    <tr>
+                        <td>Rating: </td>
+                        <td>${game.getRating()}</td>
+                    </tr>
+                    <tr>
+                        <td>Genre: </td>
+                        <td>${game.getGenre()}</td>
+                    </tr>
+                    <tr>
+                        <td>Players: </td>
+                        <td>${game.getPlayers()}</td>
+                    </tr>
+                </table>
 
-            <h1>Login to VGC - Video Game Collection!</h1>
-
-            <form class="form-horizontal" action="j_security_check" method="post">
-                <div class="form-group">
-                    <label for="username">User Name:</label>
-                    <input type="text" name="j_username" class="form-control" id="username">
-                </div>
-                <div class="form-group">
-                    <label for="pwd">Password: </label>
-                    <input type="password" name="j_password" class="form-control" id="pwd">
-                </div>
-                <div class="form-group text-center">
-                    <button id="btn_submit" type="submit" class="btn btn-default">Login</button>
-                </div>
-            </form>
-
-            <p id="register_p">Signup <a id="register_a" href="signup.jsp">here</a></p>
-
+                <h4>Description: </h4>
+                <p>${game.getDescription()}</p>
+            </div>
         </div>
 
         <!-- Footer -->
