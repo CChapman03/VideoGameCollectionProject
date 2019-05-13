@@ -2,6 +2,7 @@ package com.ciaranchapman.vgc.controller;
 
 import com.ciaranchapman.vgc.entity.Game;
 import com.ciaranchapman.vgc.entity.User;
+import com.ciaranchapman.vgc.entity.UserRoles;
 import com.ciaranchapman.vgc.persistence.GenericDao;
 import com.ciaranchapman.vgc.util.DaoFactory;
 import org.apache.logging.log4j.LogManager;
@@ -42,6 +43,14 @@ public class Login extends HttpServlet
         user.setUsername(username);
         user.setEmail(email);
         user.setPassword(password1);
+
+        logger.debug("Adding User: " + user);
+
+        UserRoles role = new UserRoles();
+        role.setUser(user);
+        role.setRole("user");
+
+        logger.debug("Adding UserRole of user to: " + user);
 
         boolean isVerified = true;
 
