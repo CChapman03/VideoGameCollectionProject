@@ -21,6 +21,13 @@ public class ViewGame extends HttpServlet
 {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException
@@ -40,6 +47,12 @@ public class ViewGame extends HttpServlet
         dispatcher.forward(req, resp);
     }
 
+    /**
+     *
+     * @param request
+     * @param response
+     * @throws IOException
+     */
     private void processError(HttpServletRequest request,
                               HttpServletResponse response) throws IOException
     {

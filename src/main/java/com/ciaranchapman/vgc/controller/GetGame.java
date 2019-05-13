@@ -21,6 +21,13 @@ public class GetGame extends HttpServlet
     private String apiURL = "https://api.thegamesdb.net/";
     private final String apiKey = "058b3e21d74d2639ca76e5eabe5eb92f2e38b80eebc6587ef942d180929e21f7";
 
+    /**
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException
@@ -28,6 +35,13 @@ public class GetGame extends HttpServlet
 
     }
 
+    /**
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException

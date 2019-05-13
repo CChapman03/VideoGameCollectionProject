@@ -16,6 +16,7 @@ public class CollectionTest
     private Collection collection;
     private DatabaseUtility databaseUtility;
 
+
     @Before
     public void setup() throws Exception
     {
