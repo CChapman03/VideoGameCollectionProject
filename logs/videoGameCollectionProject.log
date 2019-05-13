@@ -1,0 +1,641 @@
+[ERROR] 2019-04-29 18:56:08.958 [main] DatabaseUtility - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2019-04-29 18:56:08.999 [main] DatabaseUtility - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2019-04-29 18:57:12.717 [main] DatabaseUtility - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2019-04-29 18:57:12.727 [main] DatabaseUtility - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2019-04-29 18:58:25.736 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-04-29 18:59:19.966 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:23:09.229 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:23:42.139 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:24:23.116 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:35:08.459 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:35:39.680 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:36:10.302 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:36:41.061 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:37:11.789 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:37:42.110 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:38:13.082 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:38:44.128 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:39:14.864 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:39:45.572 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:40:16.312 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:46:23.801 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:46:55.412 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:47:26.607 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:47:57.337 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:48:28.108 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:48:58.971 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:49:29.393 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:50:00.736 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:50:31.028 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:51:01.335 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:51:32.104 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:52:02.856 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:52:33.623 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:53:04.310 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:53:34.998 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:54:05.641 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:54:36.292 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:55:06.488 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:55:37.225 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:56:07.875 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:56:38.616 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:57:13.394 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:57:44.132 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:58:14.488 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:58:42.123 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 09:59:15.605 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:27:13.714 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:27:15.994 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:27:16.014 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:27:16.030 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:29:31.665 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:29:33.914 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:29:33.954 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:29:33.982 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:31:51.013 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:31:52.204 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:31:52.339 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:31:52.456 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:33:31.228 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:33:32.260 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:33:32.367 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:33:32.463 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:40.337 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:41.245 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:41.399 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:41.639 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:41.879 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:41.969 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:42.068 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:42.174 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:42.313 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:42.440 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:42.643 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:42.849 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:43.115 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:43.216 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:43.310 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:43.412 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:43.516 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:43.608 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:43.677 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:43.803 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:43.916 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:44.025 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:44.194 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:44.387 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:44.633 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:44.703 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:44.799 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:48:44.869 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:48:44.870 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:49:15.120 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:49:15.122 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:49:45.773 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:49:45.777 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:58:00.656 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:01.453 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:01.637 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:01.782 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:01.927 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:02.040 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:02.104 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:02.223 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:02.328 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:02.445 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:02.526 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:02.641 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:02.743 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:02.868 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:02.993 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:03.156 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:03.275 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:03.384 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:03.474 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:03.600 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:03.682 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:03.830 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:04.040 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 10:58:04.114 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:58:04.114 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:58:34.777 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:58:34.780 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:59:05.434 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:59:05.438 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:59:36.056 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 10:59:36.057 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2019-05-01 11:00:26.441 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:00:27.520 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:00:27.750 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:00:27.913 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:01:45.478 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:01:47.076 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:01:47.093 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:01:47.135 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:08:29.940 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:08:31.660 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:08:31.692 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:09:32.491 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:09:34.266 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:09:34.319 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:10:54.042 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:10:55.577 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:10:55.612 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:17:43.512 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:17:45.602 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:17:45.625 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:17:55.562 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:17:57.750 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:17:57.784 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-01 11:17:57.820 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-02 10:32:52.293 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-02 10:32:57.380 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-02 10:32:57.431 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-02 10:34:55.109 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-02 10:34:57.586 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-02 10:34:57.659 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-02 10:45:58.905 [main] DatabaseUtility - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name') values ('PS1')' at line 1
+[ERROR] 2019-05-02 10:46:03.451 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:46:03.454 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:46:06.256 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:46:06.257 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:46:06.265 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:46:06.265 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:12.933 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:12.937 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:15.538 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:15.539 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:15.551 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:15.551 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:56.771 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:56.777 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:58.473 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:58.473 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:58.491 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:49:58.491 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:13.440 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:13.444 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:15.617 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:15.619 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:15.623 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:15.623 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:49.971 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:49.983 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:51.794 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:51.804 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:51.809 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 10:52:51.809 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 11:50:35.874 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 11:50:35.883 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 11:52:07.013 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 11:52:07.029 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 12:10:13.561 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 12:10:13.564 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 12:11:03.854 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 12:11:03.864 [main] DatabaseUtility - java.lang.NullPointerException
+[ERROR] 2019-05-02 13:12:26.540 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:12:29.157 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:12:29.197 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:12:29.230 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:13:54.239 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:13:56.407 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:13:56.452 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:13:56.480 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:15:25.588 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:16:28.345 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:21:51.948 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:22:57.075 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:24:03.651 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:29:08.683 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-02 13:29:50.675 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-05 19:24:06.654 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:16.744 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:26.307 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:29.167 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:29.207 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:29.329 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:29.395 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:29.509 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:29.547 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:29.629 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:29.700 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:29.734 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:29.758 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:29.784 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.073 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.110 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.134 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.171 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.200 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.230 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.255 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.285 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.362 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.410 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.439 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.468 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.488 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.533 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.580 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.627 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.654 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:01:30.676 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:22.211 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.358 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.390 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.475 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.503 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.587 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.641 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.669 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.717 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.745 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.818 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.907 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:25.972 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.092 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.129 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.164 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.214 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.274 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.343 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.378 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.462 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.519 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.572 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.631 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.664 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.692 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.724 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.748 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.789 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-06 14:02:26.839 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:57.397 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.456 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.478 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.593 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.615 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.671 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.694 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.733 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.794 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.825 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.844 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.865 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:30:59.926 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.031 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.047 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.070 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.096 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.118 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.149 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.216 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.266 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.289 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.318 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.410 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.471 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.488 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.510 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.537 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.589 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:31:00.648 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:41.165 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:42.935 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:42.960 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.050 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.109 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.151 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.173 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.206 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.244 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.290 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.326 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.368 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.390 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.422 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.449 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.519 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.553 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.574 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.597 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.615 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.640 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.648 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.655 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.675 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.682 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.689 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.698 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.708 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.716 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:43.762 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:32:58.592 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.135 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.182 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.245 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.262 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.330 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.365 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.386 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.408 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.441 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.457 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.469 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.493 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.518 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.573 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.638 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.671 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.694 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.711 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.768 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.825 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.850 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.886 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.919 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.935 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.946 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:00.973 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:01.000 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:01.022 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:01.048 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:17.278 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:19.950 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:20.011 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:20.090 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:20.134 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:20.280 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:20.319 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:20.349 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:20.530 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:20.632 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:20.681 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:20.719 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:20.896 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.093 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.179 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.250 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.278 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.329 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.350 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.375 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.415 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.449 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.476 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.540 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.565 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.584 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.611 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.651 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.675 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:33:21.695 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:06.149 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.114 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.139 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.182 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.209 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.249 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.266 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.304 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.357 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.384 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.407 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.434 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.458 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.485 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.499 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.550 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.588 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.608 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.628 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.658 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.681 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.693 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.706 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.721 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.732 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.741 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.755 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.774 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.822 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:09.856 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:36.667 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:38.943 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:38.972 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.018 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.043 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.076 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.093 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.105 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.136 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.179 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.235 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.259 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.291 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.313 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.334 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.384 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.416 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.441 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.473 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.508 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.532 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.544 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.590 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.639 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.658 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.677 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.696 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.711 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.722 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:34:39.737 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:49.649 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.199 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.262 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.391 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.417 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.483 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.505 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.563 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.614 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.680 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.730 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.785 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.827 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.885 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.915 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:52.966 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.052 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.114 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.169 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.202 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.244 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.287 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.334 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.364 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.409 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.445 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.475 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.518 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.541 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:37:53.561 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:39:18.431 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:42:15.023 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:47:51.035 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:37.052 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.188 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.248 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.323 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.346 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.400 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.444 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.470 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.486 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.517 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.551 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.579 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.599 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.647 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.670 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.695 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.731 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.774 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.797 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.821 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.859 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.882 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.899 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.922 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.940 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.962 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:39.984 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:40.014 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:40.044 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 11:48:40.065 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:34.023 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.208 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.248 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.338 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.373 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.429 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.452 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.493 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.546 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.584 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.603 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.625 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.655 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.706 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.728 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.757 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.795 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.822 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.846 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.868 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.903 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.924 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.958 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:37.981 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:38.008 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:38.030 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:38.051 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:38.076 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:38.114 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:02:38.134 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:01.532 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:03.986 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.011 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.089 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.126 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.180 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.206 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.230 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.284 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.308 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.327 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.346 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.371 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.401 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.435 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.470 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.519 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.545 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.580 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.602 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.648 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.671 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.697 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.722 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.738 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.762 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.771 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.797 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.820 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 12:08:04.845 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:06.908 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:11.461 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:11.483 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:11.600 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:11.646 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:11.728 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:11.756 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:11.795 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:11.824 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:11.871 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:11.909 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:11.959 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.025 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.104 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.387 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.438 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.472 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.512 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.553 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.581 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.651 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.673 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.731 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.773 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.819 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.854 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.902 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:12.959 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:13.018 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:42:13.041 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:14.144 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:16.970 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.005 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.065 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.085 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.146 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.169 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.272 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.304 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.331 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.362 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.425 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.516 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.551 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.568 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.701 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.749 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.800 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.896 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.928 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.963 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:17.982 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:18.058 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:18.121 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:18.135 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:18.145 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:18.154 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:18.167 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:18.180 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:43:18.197 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:44:56.410 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:44:58.870 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-08 20:44:58.924 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-11 19:32:06.156 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-11 19:32:08.734 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2019-05-11 19:32:08.760 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
