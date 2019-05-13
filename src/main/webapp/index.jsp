@@ -23,19 +23,19 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="images/Logo.png" width="50%" style="margin: auto"/>
+                        <img src="images/Logo.png" width="50%" style="margin: auto" />
                         <div class="carousel-caption">
                             <h1>Game Controller</h1>
                         </div>
                     </div> <!-- End Active Item -->
                     <div class="item">
-                        <img src="images/collection-library.png" />
+                        <img src="images/collection-library.png" style="margin: auto" />
                         <div class="carousel-caption">
                             <h1>Video Game Collection</h1>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="images/marioandfriends.png" />
+                        <img src="images/marioandfriends.png" width="50%" style="margin: auto" />
                         <div class="carousel-caption">
                             <h1>Mario and friends figures</h1>
                         </div>

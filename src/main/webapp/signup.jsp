@@ -23,25 +23,25 @@
 
                 <h1>Signup to VGC - Video Game Collection!</h1>
 
-                <form class="form-horizontal">
+                <form class="form-horizontal" method="post" action="login">
                     <div class="form-group">
                         <label for="username">User Name:</label>
-                        <input type="text" class="form-control" id="username">
+                        <input name="username" type="text" class="form-control" id="username">
                     </div>
                     <div class="form-group">
                         <label for="email">Email address: </label>
-                        <input type="email" class="form-control" id="email">
+                        <input name="email" type="email" class="form-control" id="email">
                     </div>
                     <div class="form-group">
                         <label for="pwd">Password: </label>
-                        <input type="password" class="form-control" id="pwd">
+                        <input name="pwd" type="password" class="form-control" id="pwd">
                     </div>
                     <div class="form-group">
                         <label for="pwd2">Retype: </label>
-                        <input type="password" class="form-control" id="pwd2">
+                        <input name="pwd2" type="password" class="form-control" id="pwd2">
                     </div>
                     <div class="form-group text-center">
-                        <button id="btn_submit" type="submit" class="btn btn-default">Signup</button>
+                        <button name="btn_submit" id="btn_submit" type="submit" class="btn btn-default">Signup</button>
                     </div>
                 </form>
 
