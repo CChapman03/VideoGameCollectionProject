@@ -8,7 +8,6 @@ import org.junit.Test;
 import java.util.List;
 
 import static org.junit.Assert.*;
-import static org.junit.Assert.assertEquals;
 
 public class DeveloperTest
 {
@@ -24,6 +23,21 @@ public class DeveloperTest
         databaseUtility.runSQL("cleandb.sql");
         databaseUtility.runSQL("createTestData.sql");
         this.developers = dao.getAll();
+    }
+
+    @Test
+    public void testAddDeveloper() throws Exception
+    {
+        int insertedDeveloperId = 0;
+
+        Developer developerToAdd = new Developer();
+        developerToAdd.setName("Insomniac Games");
+
+        insertedDeveloperId = dao.insert(developerToAdd);
+        Developer retrievedDeveloper = (Developer) dao.getById(insertedDeveloperId);
+
+        assertTrue(insertedDeveloperId > 0);
+        assertEquals(developerToAdd, retrievedDeveloper);
     }
 
     @Test
@@ -64,20 +78,5 @@ public class DeveloperTest
 
         assertEquals(currentSize - 1, sizeAfterDelete);
         assertNull(deletedDeveloper);
-    }
-
-    @Test
-    public void testAddDeveloper() throws Exception
-    {
-        int insertedDeveloperId = 0;
-
-        Developer developerToAdd = new Developer();
-        developerToAdd.setName("Insomniac Games");
-
-        insertedDeveloperId = dao.insert(developerToAdd);
-        Developer retrievedDeveloper = (Developer) dao.getById(insertedDeveloperId);
-
-        assertTrue(insertedDeveloperId > 0);
-        assertEquals(developerToAdd, retrievedDeveloper);
     }
 }

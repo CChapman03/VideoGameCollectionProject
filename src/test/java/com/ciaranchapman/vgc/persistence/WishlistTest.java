@@ -9,7 +9,6 @@ import org.junit.Test;
 import java.util.*;
 
 import static org.junit.Assert.*;
-import static org.junit.Assert.assertEquals;
 
 public class WishlistTest
 {
@@ -25,6 +24,24 @@ public class WishlistTest
         databaseUtility.runSQL("cleandb.sql");
         databaseUtility.runSQL("createTestData.sql");
         this.wishlist = (Wishlist) dao.getById(0);
+    }
+
+    @Test
+    public void testAddGameToCollection() throws Exception
+    {
+        Wishlist wishlist = this.wishlist;
+        int id = wishlist.getId();
+
+        Game gameToAdd = new Game();
+        gameToAdd.setName("Rayman 2: The Great Escape");
+
+        Game currentGame = wishlist.getGames().stream().findFirst().get();
+
+        wishlist.getGames().add(gameToAdd);
+        dao.saveOrUpdate(wishlist);
+        Wishlist updatedWishlist = (Wishlist) dao.getById(id);
+
+        assertEquals(wishlist, updatedWishlist);
     }
 
     @Test
@@ -61,20 +78,21 @@ public class WishlistTest
     }
 
     @Test
-    public void testAddGameToCollection() throws Exception
+    public void testDeleteGameFromWishlist()
     {
         Wishlist wishlist = this.wishlist;
         int id = wishlist.getId();
 
-        Game gameToAdd = new Game();
-        gameToAdd.setName("Rayman 2: The Great Escape");
+        int wishlistSizeBeforeDel = wishlist.getGames().size();
 
-        Game currentGame = wishlist.getGames().stream().findFirst().get();
+        int gameIndexToDelete = 0;
+        Game gameToDelete = (Game) wishlist.getGames().toArray()[gameIndexToDelete];
 
-        wishlist.getGames().add(gameToAdd);
-        dao.saveOrUpdate(wishlist);
+
+        dao.delete(gameToDelete);
         Wishlist updatedWishlist = (Wishlist) dao.getById(id);
 
-        assertEquals(wishlist, updatedWishlist);
+        assertNull(gameToDelete);
+        assertEquals(wishlistSizeBeforeDel - 1, updatedWishlist.getGames().size());
     }
 }

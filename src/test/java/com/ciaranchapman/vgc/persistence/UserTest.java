@@ -26,6 +26,23 @@ public class UserTest
     }
 
     @Test
+    public void testAddUser() throws Exception
+    {
+        int insertedUserId = 0;
+
+        User userToAdd = new User();
+        userToAdd.setUsername("JDoe");
+        userToAdd.setEmail("jdoe@madisoncollege.edu");
+        userToAdd.setPassword("password123");
+
+        insertedUserId = dao.insert(userToAdd);
+        User retrievedUser= (User) dao.getById(insertedUserId);
+
+        assertTrue(insertedUserId > 0);
+        assertEquals(userToAdd, retrievedUser);
+    }
+
+    @Test
     public void testAllUsers() throws Exception
     {
         assertTrue(users.size() > 0);
@@ -63,22 +80,5 @@ public class UserTest
 
         assertEquals(currentSize - 1, sizeAfterDelete);
         assertNull(deletedUser);
-    }
-
-    @Test
-    public void testAddUser() throws Exception
-    {
-        int insertedUserId = 0;
-
-        User userToAdd = new User();
-        userToAdd.setUsername("JDoe");
-        userToAdd.setEmail("jdoe@madisoncollege.edu");
-        userToAdd.setPassword("password123");
-
-        insertedUserId = dao.insert(userToAdd);
-        User retrievedUser= (User) dao.getById(insertedUserId);
-
-        assertTrue(insertedUserId > 0);
-        assertEquals(userToAdd, retrievedUser);
     }
 }

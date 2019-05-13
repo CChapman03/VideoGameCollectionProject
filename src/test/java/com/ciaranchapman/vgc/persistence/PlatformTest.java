@@ -27,6 +27,21 @@ public class PlatformTest
     }
 
     @Test
+    public void testAddGame() throws Exception
+    {
+        int insertedPlatformId = 0;
+
+        Platform platformToAdd = new Platform();
+        platformToAdd.setName("PS1");
+
+        insertedPlatformId = dao.insert(platformToAdd);
+        Platform retrievedGame = (Platform) dao.getById(insertedPlatformId);
+
+        assertTrue(insertedPlatformId > 0);
+        assertEquals(platformToAdd, retrievedGame);
+    }
+
+    @Test
     public void testGetAllGames()
     {
         assertTrue(platforms.size() > 0);
@@ -64,20 +79,5 @@ public class PlatformTest
 
         assertEquals(currentSize - 1, sizeAfterDelete);
         assertNull(deletedPlatform);
-    }
-
-    @Test
-    public void testAddGame() throws Exception
-    {
-        int insertedPlatformId = 0;
-
-        Platform platformToAdd = new Platform();
-        platformToAdd.setName("PS1");
-
-        insertedPlatformId = dao.insert(platformToAdd);
-        Platform retrievedGame = (Platform) dao.getById(insertedPlatformId);
-
-        assertTrue(insertedPlatformId > 0);
-        assertEquals(platformToAdd, retrievedGame);
     }
 }

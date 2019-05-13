@@ -1,23 +1,15 @@
 package com.ciaranchapman.vgc.entity;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.ejb.Local;
 import javax.persistence.*;
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 import java.util.Date;
-import java.util.Set;
 
 @Entity(name = "Game")
 @Table(name = "Game")
 public class Game
 {
     // Instance Variables
-
-    //Logger logger = LogManager.getLogger(this.getClass());
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
@@ -56,14 +48,6 @@ public class Game
 
     @Column(name = "artwork")
     private String artwork;
-
-    @ManyToOne
-    @JoinColumn(name="id", nullable=false)
-    private Collection collection;
-
-    @ManyToOne
-    @JoinColumn(name="id", nullable=false)
-    private Wishlist wishlist;
 
     // Constructor
 
@@ -176,21 +160,6 @@ public class Game
         this.artwork = artwork;
     }
 
-    public Collection getCollection() {
-        return collection;
-    }
-
-    public void setCollection(Collection collection) {
-        this.collection = collection;
-    }
-
-    public Wishlist getWishlist() {
-        return wishlist;
-    }
-
-    public void setWishlist(Wishlist wishlist) {
-        this.wishlist = wishlist;
-    }
 
     public String toString()
     {
@@ -205,5 +174,31 @@ public class Game
                 "rating: '" + this.rating + "'" +
                 "description: '" + this.description + "'" +
                 "}";
+    }
+
+    @ManyToOne(optional = false, fetch = FetchType.EAGER)
+    private Collection collections;
+
+    public Collection getCollections()
+    {
+        return collections;
+    }
+
+    public void setCollections(Collection collections)
+    {
+        this.collections = collections;
+    }
+
+    @ManyToOne(optional = false)
+    private Wishlist wishlists;
+
+    public Wishlist getWishlists()
+    {
+        return wishlists;
+    }
+
+    public void setWishlists(Wishlist wishlists)
+    {
+        this.wishlists = wishlists;
     }
 }

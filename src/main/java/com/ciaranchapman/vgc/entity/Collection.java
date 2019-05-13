@@ -1,14 +1,8 @@
 package com.ciaranchapman.vgc.entity;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.ejb.Local;
 import javax.persistence.*;
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
-import java.util.Date;
 import java.util.Set;
 
 @Entity(name = "Collection")
@@ -17,18 +11,15 @@ public class Collection
 {
     // Instance Variables
 
-    //private Logger logger = LogManager.getLogger(this.getClass());
-
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
     @GenericGenerator(name = "native",strategy = "native")
     private int id;
 
-    @OneToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "collection_id", nullable = false)
-    private Collection collection;
+    @Column(name = "collection_id")
+    private int collectionID;
 
-    @OneToMany(mappedBy="collection")
+    @OneToMany(cascade=CascadeType.ALL, fetch = FetchType.EAGER)
     @Column(name = "game_id", nullable = false)
     private Set<Game> games;
 
@@ -58,5 +49,15 @@ public class Collection
 
     public void setGames(Set<Game> games) {
         this.games = games;
+    }
+
+    public int getCollectionID()
+    {
+        return collectionID;
+    }
+
+    public void setCollectionID(int collectionID)
+    {
+        this.collectionID = collectionID;
     }
 }

@@ -27,6 +27,28 @@ public class UserRolesTest
     }
 
     @Test
+    public void testAddUserRoles() throws Exception
+    {
+        int insertedUserRoleId = 0;
+
+        UserRoles userRoleToAdd = new UserRoles();
+
+        User user = new User();
+        user.setUsername("JDoe");
+        user.setEmail("jdoe@madisoncollege.edu");
+        user.setPassword("password123");
+
+        userRoleToAdd.setUser(user);
+        userRoleToAdd.setRole("user");
+
+        insertedUserRoleId = dao.insert(userRoleToAdd);
+        UserRoles retrievedUserRole = (UserRoles) dao.getById(insertedUserRoleId);
+
+        assertTrue(insertedUserRoleId > 0);
+        assertEquals(userRoleToAdd, retrievedUserRole);
+    }
+
+    @Test
     public void testAllUserRoles() throws Exception
     {
         assertTrue(userRoles.size() > 0);
@@ -64,27 +86,5 @@ public class UserRolesTest
 
         assertEquals(currentSize - 1, sizeAfterDelete);
         assertNull(deletedUserRole);
-    }
-
-    @Test
-    public void testAddUserRoles() throws Exception
-    {
-        int insertedUserRoleId = 0;
-
-        UserRoles userRoleToAdd = new UserRoles();
-
-        User user = new User();
-        user.setUsername("JDoe");
-        user.setEmail("jdoe@madisoncollege.edu");
-        user.setPassword("password123");
-
-        userRoleToAdd.setUser(user);
-        userRoleToAdd.setRole("user");
-
-        insertedUserRoleId = dao.insert(userRoleToAdd);
-        UserRoles retrievedUserRole = (UserRoles) dao.getById(insertedUserRoleId);
-
-        assertTrue(insertedUserRoleId > 0);
-        assertEquals(userRoleToAdd, retrievedUserRole);
     }
 }

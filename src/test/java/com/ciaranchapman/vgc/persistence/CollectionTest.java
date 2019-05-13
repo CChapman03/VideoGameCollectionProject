@@ -27,9 +27,27 @@ public class CollectionTest
     }
 
     @Test
-    public void testGetCollection() throws Exception
+    public void testAddGameToCollection() throws Exception
     {
-        assertNull(collection);
+        Collection collection = this.collection;
+        int id = collection.getId();
+
+        Game gameToAdd = new Game();
+        gameToAdd.setName("Rayman 2: The Great Escape");
+
+        Game currentGame = (Game)collection.getGames().toArray()[0];
+
+        collection.getGames().add(gameToAdd);
+        dao.saveOrUpdate(collection);
+        Collection updatedCollection = (Collection) dao.getById(id);
+
+        assertEquals(collection, updatedCollection);
+    }
+
+    @Test
+    public void testReadCollection() throws Exception
+    {
+        assertNotNull(collection);
         assertFalse(collection.getGames().isEmpty());
     }
 
@@ -60,20 +78,21 @@ public class CollectionTest
     }
 
     @Test
-    public void testAddGameToCollection() throws Exception
+    public void testDeleteGameFromCollection()
     {
         Collection collection = this.collection;
         int id = collection.getId();
 
-        Game gameToAdd = new Game();
-        gameToAdd.setName("Rayman 2: The Great Escape");
+        int collectionSizeBeforeDel = collection.getGames().size();
 
-        Game currentGame = collection.getGames().stream().findFirst().get();
+        int gameIndexToDelete = 0;
+        Game gameToDelete = (Game) collection.getGames().toArray()[gameIndexToDelete];
 
-        collection.getGames().add(gameToAdd);
-        dao.saveOrUpdate(collection);
+
+        dao.delete(gameToDelete);
         Collection updatedCollection = (Collection) dao.getById(id);
 
-        assertEquals(collection, updatedCollection);
+        assertNull(gameToDelete);
+        assertEquals(collectionSizeBeforeDel - 1, updatedCollection.getGames().size());
     }
 }

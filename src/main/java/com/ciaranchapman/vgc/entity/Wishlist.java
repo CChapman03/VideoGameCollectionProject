@@ -18,7 +18,7 @@ public class Wishlist
     @JoinColumn(name = "wishlist_id", nullable = false)
     private Wishlist wishlist;
 
-    @OneToMany(mappedBy="wishlist")
+    @OneToMany(mappedBy= "wishlists")
     @Column(name = "game_id", nullable = false)
     private Set<Game> games;
 

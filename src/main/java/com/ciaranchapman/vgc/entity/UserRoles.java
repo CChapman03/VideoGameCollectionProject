@@ -3,7 +3,6 @@ package com.ciaranchapman.vgc.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
-import java.util.Set;
 
 @Entity(name = "UserRoles")
 @Table(name = "UserRoles")

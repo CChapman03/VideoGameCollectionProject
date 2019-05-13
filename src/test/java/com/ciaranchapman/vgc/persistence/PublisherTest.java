@@ -26,6 +26,21 @@ public class PublisherTest
     }
 
     @Test
+    public void testAddPublisher() throws Exception
+    {
+        int insertedPublisherId = 0;
+
+        Publisher publisherToAdd = new Publisher();
+        publisherToAdd.setName("Ubisoft");
+
+        insertedPublisherId = dao.insert(publisherToAdd);
+        Publisher retrievedPublisher = (Publisher) dao.getById(insertedPublisherId);
+
+        assertTrue(insertedPublisherId > 0);
+        assertEquals(publisherToAdd, retrievedPublisher);
+    }
+
+    @Test
     public void testAllPublishers() throws Exception
     {
         assertTrue(publishers.size() > 0);
@@ -63,20 +78,5 @@ public class PublisherTest
 
         assertEquals(currentSize - 1, sizeAfterDelete);
         assertNull(deletedPublisher);
-    }
-
-    @Test
-    public void testAddPublisher() throws Exception
-    {
-        int insertedPublisherId = 0;
-
-        Publisher publisherToAdd = new Publisher();
-        publisherToAdd.setName("Ubisoft");
-
-        insertedPublisherId = dao.insert(publisherToAdd);
-        Publisher retrievedPublisher = (Publisher) dao.getById(insertedPublisherId);
-
-        assertTrue(insertedPublisherId > 0);
-        assertEquals(publisherToAdd, retrievedPublisher);
     }
 }

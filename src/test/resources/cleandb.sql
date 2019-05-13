@@ -1,10 +1,10 @@
 set foreign_key_checks = 0;
-delete from User;
-delete from UserRoles;
-delete from Game;
-delete from Platform;
-delete from Developer;
-delete from Publisher;
-delete from Collection;
-delete from Wishlist;
+delete from VGCTest.User;
+delete from VGCTest.UserRoles;
+delete from VGCTest.Game;
+delete from VGCTest.Platform;
+delete from VGCTest.Developer;
+delete from VGCTest.Publisher;
+delete from VGCTest.Collection;
+delete from VGCTest.Wishlist;
 set foreign_key_checks = 1;
